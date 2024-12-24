@@ -14,7 +14,7 @@ public class CarController : MonoBehaviour {
         // 取得滑動長度
         if (Input.GetMouseButtonDown(0))
         {
-            this.startPos = Input.mousePosition; // 點擊滑鼠時的座標
+            startPos = Input.mousePosition; // 點擊滑鼠時的座標
         }
         else if (Input.GetMouseButtonUp(0))
         {
